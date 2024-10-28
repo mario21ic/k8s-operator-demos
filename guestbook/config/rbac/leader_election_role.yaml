@@ -1,6 +1,6 @@
 # permissions to do leader election.
 apiVersion: rbac.authorization.k8s.io/v1
-kind: Role
+kind: ClusterRole
 metadata:
   labels:
     app.kubernetes.io/name: guestbook
@@ -38,3 +38,7 @@ rules:
   verbs:
   - create
   - patch
+# nuevos
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["get", "list", "watch"]

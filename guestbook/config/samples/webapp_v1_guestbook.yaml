@@ -7,3 +7,5 @@ metadata:
   name: guestbook-sample
 spec:
   # TODO(user): Add fields here
+  #campo1: valor1
+  #campo2: valor2

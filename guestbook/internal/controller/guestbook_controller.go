@@ -56,7 +56,7 @@ func (r *GuestbookReconciler) Reconcile(ctx context.Context, req ctrl.Request) (
 
 	// TODO(user): your logic here
 
-	fmt.Println("Reconcile xD")
+	fmt.Println("Reconcile caught xD")
 
 	pod := &corev1.Pod{}
 	fmt.Println("Pod: ", pod)
